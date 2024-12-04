@@ -17,5 +17,19 @@ Numbers ← { ne/˜∧´¨(1⊸↑∾¯1⊸↑)⊸∊⟜nums¨ ne←(0⊸<∘≠
                             
 Mult ← {+´×´∘(•ParseFloat⎊0¨)¨ ','⊸s.Split¨ Numbers 𝕩}
 
-Mult ∾data
+# p = The previous group's value
+# l = The last seen value
+# c = The current value
+# k = Whether or not we should keep this value
 
+DoMask ← {
+    p‿l‿k 𝕊 c: c = l ? 𝕨     ;
+    p‿l‿k 𝕊 c: c < l ? l‿c‿0 ;
+    p‿l‿k 𝕊 c:         l‿c‿1
+}
+
+DosAndDonts ← +`(("do()"⊸s.Locate)+(-"don't()"⊸s.Locate))
+
+Masked ← {𝕩 /˜ ¯1⊑˘>(<0‿0‿1) DoMask` DosAndDonts 𝕩}
+
+Mult Masked ∾ data
