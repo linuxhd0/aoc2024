@@ -8,3 +8,12 @@ Safe ← Order∧Distance¨
 
 +´ Safe data
 
+unsafe ← (¬∘Safe)⊸/data
+
+# ¬ identity matrix
+Nim ← ¬=⌜˜↕
+
+DampedSafe ← {∨´Safe (<˘Nim(≠𝕩))/¨(≠𝕩)/⋈𝕩}¨ 
+
++´ (DampedSafe unsafe) ∾ Safe data
+
