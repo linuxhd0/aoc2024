@@ -12,6 +12,5 @@ Straights ← {<˘∾𝕩‿(⌽˘𝕩)‿(⍉𝕩)‿(⌽˘⍉𝕩)}
 
 Diags ← {(⌽¨⊸∾)∾(DiagMasks 𝕩)‿(DiagMasks ⌽˘𝕩)}
 
-Diags⊸(+○Count)⟜Straights data
-
+•Show Diags⊸(+○Count)⟜Straights data
 

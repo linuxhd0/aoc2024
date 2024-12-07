@@ -32,4 +32,4 @@ DosAndDonts ← +`(("do()"⊸s.Locate)+(-"don't()"⊸s.Locate))
 
 Masked ← {𝕩 /˜ ¯1⊑˘>(<0‿0‿1) DoMask` DosAndDonts 𝕩}
 
-Mult Masked ∾ data
+•Show Mult Masked ∾ data

@@ -4,5 +4,5 @@ Split ← ((⊢-˜+`×¬)∘=⊔⊢)
 
 Pair ← •ParseFloat¨ ·> (1⊸↑∾¯1⊸↑)∘(' '⊸Split)¨
 
-+´|∘-˝∧˘⍉  Pair data
+•Show +´|∘-˝∧˘⍉  Pair data
 

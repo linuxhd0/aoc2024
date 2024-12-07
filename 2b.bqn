@@ -15,5 +15,5 @@ Nim ← ¬=⌜˜↕
 
 DampedSafe ← {∨´Safe (<˘Nim(≠𝕩))/¨(≠𝕩)/⋈𝕩}¨ 
 
-+´ (DampedSafe unsafe) ∾ Safe data
+•Show +´ (DampedSafe unsafe) ∾ Safe data
 

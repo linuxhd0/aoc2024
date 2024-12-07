@@ -8,4 +8,4 @@ paired ← Pair data
 
 hash ← (⊑˘ •HashMap ¯1⊸⊑˘) >(⊑⋈≠)¨ (⊐⊸⊔)1⊏˘ paired
 
-+´ hash.Has◶⟨0,⊣×hash.Get⟩¨ ⊑˘ paired
+•Show +´ hash.Has◶⟨0,⊣×hash.Get⟩¨ ⊑˘ paired

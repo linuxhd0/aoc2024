@@ -16,5 +16,5 @@ ValidUpdates ← {rs 𝕊 updates: ur ← rs⊸UpdateRules¨ updates ⋄ ur Chec
 
 A ← {+´ {⌊∘÷⟜2∘≠⊸⊑𝕩}¨ (𝕨 ValidUpdates 𝕩)/𝕩}
 
-rdata A udata
+•Show rdata A udata
 

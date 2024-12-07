@@ -17,5 +17,5 @@ Numbers ← { ne/˜∧´¨(1⊸↑∾¯1⊸↑)⊸∊⟜nums¨ ne←(0⊸<∘≠
                             
 Mult ← {+´×´∘(•ParseFloat⎊0¨)¨ ','⊸s.Split¨ Numbers 𝕩}
 
-Mult ∾data
+•Show Mult ∾data
 

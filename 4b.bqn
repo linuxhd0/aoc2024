@@ -10,3 +10,5 @@ MSidxs ← ⟨¯1‿¯1, 1‿¯1, 1‿1, ¯1‿1⟩⊸+⟜<¨ Aidxs
 
 Count ← {+´+˝⟨"MMSS", "MSSM", "SSMM", "SMMS"⟩ ≡⌜ ⊑⟜𝕩⎊"   "¨ MSidxs 𝕩}
 
+•Show Count data
+
