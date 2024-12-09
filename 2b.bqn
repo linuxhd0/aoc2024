@@ -11,9 +11,9 @@ Safe ← Order∧Distance¨
 unsafe ← (¬∘Safe)⊸/data
 
 # ¬ identity matrix
-Nim ← ¬=⌜˜↕
+Nim ← ¬·=⌜˜↕
 
-DampedSafe ← {∨´Safe (<˘Nim(≠𝕩))/¨(≠𝕩)/⋈𝕩}¨ 
+DampedSafe ← {∨´Safe (<˘Nim(≠𝕩))/¨(≠𝕩)/⋈𝕩}¨
 
 •Show +´ (DampedSafe unsafe) ∾ Safe data
 
