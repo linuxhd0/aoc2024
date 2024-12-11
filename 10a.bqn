@@ -1,5 +1,4 @@
-data ← '0'-˜>•file.Lines "10_input.txt"
-
+data       ← '0'-˜>•file.Lines "10_input.txt"
 zeros      ← (≢data)⥊((⊒⊸+⟜1)×(0⊸=))⥊ data
 starts     ← >(<={1+↕⌈´⥊𝕩}) zeros
 directions ← «‿(»˘)‿»‿(«˘)
